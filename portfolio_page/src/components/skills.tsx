@@ -34,7 +34,7 @@ const skillArray: DataArray[] = [
 
 const Skills:React.FC = ()=>{
   return(
-    <div className="skills flex flex-col gap-[30px] items-center m-auto w-full px-[24px] lg:px[150px] lg:gap-[50px]">
+    <div className="skills flex flex-col gap-[30px] items-center m-auto w-full px-[24px] lg:px-[150px] lg:gap-[50px]">
       <p className="text-[24px]">Minhas habilidades</p>
       <div className="flex flex-row flex-wrap gap-[30px] justify-center">
       {skillArray.map((skill, index)=>(
