@@ -28,7 +28,6 @@ const Intro: React.FC = () =>{
    </div>
 
     <img src="./src/assets/undraw_Lost_online_re_upmy.svg" alt="Imagem de um menino de camisa verde com galáxia atrás em formato de S e um telefone na mão" className="w-[350px] h-[300px] hidden lg:block"/>
-    <img src="../src/assets/undraw_Lost_online_re_upmy.svg" alt="Imagem de um menino de camisa verde com galáxia atrás em formato de S e um telefone na mão" className="w-[350px] h-[300px] hidden lg:block"/>
   </div>) 
 }
 
