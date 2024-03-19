@@ -2,6 +2,7 @@ import React from "react";
 import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 
 const scrollTop = () =>{
+  console.log('funf')
   window.scrollTo({
     top: 0,
     behavior: 'smooth'
