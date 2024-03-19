@@ -8,7 +8,7 @@ const scrollTop = () =>{
     behavior: 'smooth'
   })
 } 
-})
+
 
 const ToTop: React.FC = () =>{
   return (
