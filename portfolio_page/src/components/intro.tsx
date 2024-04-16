@@ -10,7 +10,7 @@ const DefaultButton: React.FC<ButtonProps> = ({ content, props, href }) => {
   return (
     <a
       href={href}
-      download  // Adicione o atributo download aqui
+      download  
       className={`text-[12px] py-[8px] px-[20px] ${props} rounded-[5px] text-black lg:text-[14px] lg:py-[12px] lg:px-[25px]`}
     >
       {content}
