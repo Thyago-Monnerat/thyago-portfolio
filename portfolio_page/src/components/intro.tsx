@@ -7,9 +7,9 @@ interface Button {
   download:string
 }
 
-const DefaultButton: React.FC<Button> = ({content, props, href}) =>{
+const DefaultButton: React.FC<Button> = ({content, props, href, download}) =>{
   return (
-    <a href={href} className={`text-[12px] py-[8px] px-[20px] ${props} rounded-[5px] text-black lg:text-[14px] lg:py-[12px] lg:px-[25px]`}>{content}</a>
+    <a href={href} download={download} className={`text-[12px] py-[8px] px-[20px] ${props} rounded-[5px] text-black lg:text-[14px] lg:py-[12px] lg:px-[25px]`}>{content}</a>
   )
 }
 
