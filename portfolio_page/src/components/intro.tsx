@@ -23,7 +23,7 @@ const Intro: React.FC = () =>{
       </div>
     
       <div className="w-full flex justify-center gap-[9px] lg:justify-start">
-       <DefaultButton href="src/assets/THYAGOLOPESMONNERAT.pdf" download="THYAGOLOPESMONNERAT.pdf" content="Download CV" props="bg-main-green hover:bg-[#18f373] transition duration-[.3s] ease"></DefaultButton>
+       <DefaultButton href="src/assets/" download="THYAGOLOPESMONNERAT.pdf" content="Download CV" props="bg-main-green hover:bg-[#18f373] transition duration-[.3s] ease"></DefaultButton>
         <DefaultButton href="mailto:thyago.monnerat.pro@gmail.com" download="" content="Entrar em contato" props="text-white border border-1 border-solid border-color-button transition-border duration-[.3s] ease hover:border-white" ></DefaultButton>
       </div>
    </div>
