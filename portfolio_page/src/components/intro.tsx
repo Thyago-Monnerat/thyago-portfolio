@@ -3,13 +3,12 @@ import React from "react"
 interface Button {
   content: string,
   props:string,
-  href:string,
-  download: string
+  href:string
 }
 
-const DefaultButton: React.FC<Button> = ({content, props, href, download}) =>{
+const DefaultButton: React.FC<Button> = ({content, props, href}) =>{
   return (
-    <a href={href} {download} className={`text-[12px] py-[8px] px-[20px] ${props} rounded-[5px] text-black lg:text-[14px] lg:py-[12px] lg:px-[25px]`}>{content}</a>
+    <a href={href} download className={`text-[12px] py-[8px] px-[20px] ${props} rounded-[5px] text-black lg:text-[14px] lg:py-[12px] lg:px-[25px]`}>{content}</a>
   )
 }
 
@@ -23,8 +22,8 @@ const Intro: React.FC = () =>{
       </div>
     
       <div className="w-full flex justify-center gap-[9px] lg:justify-start">
-       <DefaultButton href="portfolio_page/THYAGOLOPESMONNERAT.pdf" download="download" content="Download CV" props="bg-main-green hover:bg-[#18f373] transition duration-[.3s] ease"></DefaultButton>
-        <DefaultButton href="mailto:thyago.monnerat.pro@gmail.com" download="" content="Entrar em contato" props="text-white border border-1 border-solid border-color-button transition-border duration-[.3s] ease hover:border-white" ></DefaultButton>
+       <DefaultButton href="portfolio_page/THYAGOLOPESMONNERAT.pdf" content="Download CV" props="bg-main-green hover:bg-[#18f373] transition duration-[.3s] ease"></DefaultButton>
+        <DefaultButton href="mailto:thyago.monnerat.pro@gmail.com" content="Entrar em contato" props="text-white border border-1 border-solid border-color-button transition-border duration-[.3s] ease hover:border-white" ></DefaultButton>
       </div>
    </div>
 
