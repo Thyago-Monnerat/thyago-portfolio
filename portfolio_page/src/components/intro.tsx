@@ -29,7 +29,7 @@ const Intro: React.FC = () => {
 
         <div className="w-full flex justify-center gap-[9px] lg:justify-start">
           <DefaultButton
-            href="./assets/profile.pdf"
+            href="/profile.pdf"
             content="Download CV"
             props="bg-main-green hover:bg-[#18f373] transition duration-[.3s] ease"
           ></DefaultButton>
