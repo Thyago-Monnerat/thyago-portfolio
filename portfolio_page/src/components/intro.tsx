@@ -3,7 +3,8 @@ import React from "react"
 interface Button {
   content: string,
   props:string,
-  href:string
+  href:string,
+  download:string
 }
 
 const DefaultButton: React.FC<Button> = ({content, props, href}) =>{
