@@ -1,6 +1,5 @@
 import React from "react"
-import { FaHtml5, FaCss3, FaReact, FaPhp, FaDatabase, FaCode } from 'react-icons/fa';
-
+import { FaJava, FaPhp, FaDatabase, FaCode } from 'react-icons/fa';
 
 interface Props{
   skillImg: JSX.Element,
@@ -24,17 +23,15 @@ interface DataArray{
 }
 
 const skillArray: DataArray[] = [
-    {name: 'HTML', img: <FaHtml5 className="fill w-full h-full"/> },
-    { name: 'CSS', img: <FaCss3 className="fill w-full h-full"/> },
-    { name: 'React', img: <FaReact className="fill w-full h-full"/> },
     { name: 'PHP', img: <FaPhp className="fill w-full h-full"/> },
     { name: 'SQL', img: <FaDatabase className="fill w-full h-full"/> },
-    { name: 'JavaScript', img: <FaCode className="fill w-full h-full"/> }
+    { name: 'JavaScript', img: <FaCode className="fill w-full h-full"/> },
+    { name: 'Java', img: <FaJava className="fill w-full h-full"/> },
 ];
 
 const Skills:React.FC = ()=>{
   return(
-    <div className="skills flex flex-col gap-[30px] items-center m-auto w-full px-[24px] lg:px[150px] lg:gap-[50px]">
+    <div className="skills flex flex-col gap-[30px] items-center m-auto w-full px-[24px] lg:px-[150px] lg:gap-[50px]">
       <p className="text-[24px]">Minhas habilidades</p>
       <div className="flex flex-row flex-wrap gap-[30px] justify-center">
       {skillArray.map((skill, index)=>(

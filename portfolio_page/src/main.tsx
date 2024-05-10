@@ -5,7 +5,6 @@ import Header from './components/header.tsx'
 import Intro from './components/intro.tsx'
 import About from './components/about.tsx'
 import Projects from './components/projects.tsx'
-import Services from './components/services.tsx'
 import Skills from './components/skills.tsx'
 import Footer from './components/footer.tsx'
 import ToTop from './components/toTop.tsx'
@@ -17,7 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Intro />
     <About />
     <Projects />
-    <Services />
     <Skills />
     <Footer />
   </React.StrictMode>,

@@ -46,7 +46,6 @@ const Header: React.FC = () => {
       <div className="nav-bar hidden md:block md:flex gap-5">
         <NavButtonsDesktop content="Sobre mim" dataTarget="about"></NavButtonsDesktop>
         <NavButtonsDesktop content="Projetos" dataTarget="projects"></NavButtonsDesktop>
-        <NavButtonsDesktop content="Serviços" dataTarget="services"></NavButtonsDesktop>
         <NavButtonsDesktop content="Habilidades" dataTarget="skills"></NavButtonsDesktop>
       </div>
       <AiOutlineMenu className="md:hidden" onClick={toggleMenu} />
@@ -54,7 +53,6 @@ const Header: React.FC = () => {
       <div className={`menu-mobile p-[24px] flex-col items-center gap-8 w-full fixed h-screen left-[0px] top-[72px] bg-main-black z-10 ${menuOpen ? 'flex' : 'hidden'}`}>
         <MblBtns content="Sobre mim" dataTarget="about"></MblBtns>
         <MblBtns content="Projetos" dataTarget="projects"></MblBtns>
-        <MblBtns content="Serviços" dataTarget="services"></MblBtns>
         <MblBtns content="Minhas skills" dataTarget="skills"></MblBtns>
       </div>
     </div>
