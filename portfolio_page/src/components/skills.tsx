@@ -1,5 +1,5 @@
 import React from "react"
-import { FaJava, FaPhp, FaDatabase, FaCode } from 'react-icons/fa';
+import { FaJava, FaPhp, FaDatabase, FaCode, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 
 interface Props{
   skillImg: JSX.Element,
@@ -23,9 +23,11 @@ interface DataArray{
 }
 
 const skillArray: DataArray[] = [
+    { name: 'HTML', img: <FaHtml5 className="fill w-full h-full"/> },
+    { name: 'CSS', img: <FaCss3Alt className="fill w-full h-full"/> },
+    { name: 'JavaScript', img: <FaCode className="fill w-full h-full"/> },
     { name: 'PHP', img: <FaPhp className="fill w-full h-full"/> },
     { name: 'SQL', img: <FaDatabase className="fill w-full h-full"/> },
-    { name: 'JavaScript', img: <FaCode className="fill w-full h-full"/> },
     { name: 'Java', img: <FaJava className="fill w-full h-full"/> },
 ];
 
