@@ -1,8 +1,6 @@
 import React from "react";
-import { FaJava, FaDatabase, FaHtml5, FaCss3Alt } from "react-icons/fa";
-
-import { BiLogoTypescript } from "react-icons/bi";
-import { RiJavascriptFill } from "react-icons/ri";
+import { FaAngular, FaReact } from "react-icons/fa";
+import { SiSpring, SiTailwindcss, SiSpringboot } from "react-icons/si";
 
 interface Props {
   skillImg: JSX.Element;
@@ -26,25 +24,24 @@ interface DataArray {
 }
 
 const skillArray: DataArray[] = [
-  { name: "HTML", img: <FaHtml5 className="fill w-full h-full" /> },
-  { name: "CSS", img: <FaCss3Alt className="fill w-full h-full" /> },
   {
-    name: "JavaScript",
-    img: <RiJavascriptFill className="fill w-full h-full" />,
+    name: "Spring Framework",
+    img: <SiSpring className="fill w-full h-full" />,
   },
+  { name: "Spring Boot", img: <SiSpringboot className="fill w-full h-full" /> },
+  { name: "Angular", img: <FaAngular className="fill w-full h-full" /> },
+  { name: "React", img: <FaReact className="fill w-full h-full" /> },
   {
-    name: "TypeScript",
-    img: <BiLogoTypescript className="fill w-full h-full" />,
+    name: "Tailwind",
+    img: <SiTailwindcss className="fill w-full h-full" />,
   },
-  { name: "SQL", img: <FaDatabase className="fill w-full h-full" /> },
-  { name: "Java", img: <FaJava className="fill w-full h-full" /> },
 ];
 
-const Skills: React.FC = () => {
+const Frameworks: React.FC = () => {
   return (
     <div className="skills flex flex-col gap-[30px] items-center m-auto w-full px-[24px] lg:px-[150px] lg:gap-[50px]">
-      <p className="text-[24px]">Linguagens</p>
-      <div className="flex flex-row flex-wrap gap-[30px] justify-center">
+      <p className="text-[24px]">Frameworks e Bibliotecas</p>
+      <div className="flex flex-row flex-wrap gap-[30px] justify-center text-center">
         {skillArray.map((skill, index) => (
           <SkillCard
             key={index}
@@ -57,4 +54,4 @@ const Skills: React.FC = () => {
   );
 };
 
-export default Skills;
+export default Frameworks;
