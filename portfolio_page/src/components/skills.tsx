@@ -1,8 +1,8 @@
 import React from "react";
 import { FaJava, FaDatabase, FaHtml5, FaCss3Alt } from "react-icons/fa";
-
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiJavascriptFill } from "react-icons/ri";
+import { SiPhp } from "react-icons/si";
 
 interface Props {
   skillImg: JSX.Element;
@@ -38,6 +38,7 @@ const skillArray: DataArray[] = [
   },
   { name: "SQL", img: <FaDatabase className="fill w-full h-full" /> },
   { name: "Java", img: <FaJava className="fill w-full h-full" /> },
+  { name: "PHP", img: <SiPhp className="fill w-full h-full" /> },
 ];
 
 const Skills: React.FC = () => {

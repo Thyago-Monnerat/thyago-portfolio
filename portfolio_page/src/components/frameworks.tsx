@@ -29,8 +29,8 @@ const skillArray: DataArray[] = [
     img: <SiSpring className="fill w-full h-full" />,
   },
   { name: "Spring Boot", img: <SiSpringboot className="fill w-full h-full" /> },
-  { name: "Angular", img: <FaAngular className="fill w-full h-full" /> },
-  { name: "React", img: <FaReact className="fill w-full h-full" /> },
+  { name: "AngularJS", img: <FaAngular className="fill w-full h-full" /> },
+  { name: "ReactJS", img: <FaReact className="fill w-full h-full" /> },
   {
     name: "Tailwind",
     img: <SiTailwindcss className="fill w-full h-full" />,
