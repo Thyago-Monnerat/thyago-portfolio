@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
     <div className="projects m-auto w-full px-[24px] flex flex-col items-center gap-[30px] lg:px-[150px] lg:max-w-[1920px]">
       <p className="text-[24px]">Projetos</p>
       <div className="flex flex-col justify-center items-center gap-[30px] w-full lg:max-w-[1920px] lg:flex-row lg:flex-wrap lg:gap-[40px]">
-        <ProjectCard href="https://lightblue-crab-587877.hostingersite.com/" pjtImage="https://lightblue-crab-587877.hostingersite.com/assets/logo.png" pjtName="Medina Monnerat" pjtTechs="AngularJS | PHP | MySQL"></ProjectCard>
+        <ProjectCard href="https://medinamonnerat.com.br" pjtImage="https://medinamonnerat.com.br/assets/logo.png" pjtName="Medina Monnerat" pjtTechs="AngularJS | PHP | MySQL"></ProjectCard>
       </div>
     </div>
   )
